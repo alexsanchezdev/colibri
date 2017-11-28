@@ -1,9 +1,16 @@
-import React from 'react';
+import React, { Component } from 'react'
 
-const App = () => (
-  <div>
-    <p>Colibri application</p>
-  </div>
-)
+import Header from './components/Header'
+
+class App extends Component{
+  render(){
+    return (
+      <div>
+        <Header />
+      </div>
+    )
+  }
+}
+  
 
 export default App;

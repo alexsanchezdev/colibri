@@ -1,14 +1,12 @@
-import React from 'react';
+import React from 'react'
 
 import './header.css'
+import Navbar from '../Navbar'
 
 function Header(){
     return (
         <header className="header">
-            <div>
-                <h1 className="logo">Colibri</h1>
-            </div>
-            
+            <Navbar />
         </header>
     )
 }
